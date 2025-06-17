@@ -1,5 +1,11 @@
 <html>
   <head>
+    <style>
+  .mySpan {
+    white-space: normal; /* Allow text to wrap */
+    overflow: visible; /* Show overflowing text */
+    width: auto; /* Let the span expand to fit the content */
+    
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
     <link
       rel="stylesheet"
@@ -163,7 +169,7 @@
                     <button
                       class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 bg-[#b7e0b7] text-[#151e15] text-sm font-medium leading-normal"
                     >
-                      <span class="truncate">Pre-order</span>
+                      <span class="mySpan">Pre-order</span>
                     </button>
                   </div>
                 </div>
